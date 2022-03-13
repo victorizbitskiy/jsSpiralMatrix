@@ -24,7 +24,7 @@ for (let i = 0; i < dimention; i++) {
   matrix[dx][dy] = value
 }
 
-// Find row and column numbers 
+// Find row and column numbers and set values
 for (let i = 1; i <= seqTotal; i++) {
   seqSign = seqSign === '-' ? '+' : '-'
   seqDigitsTotal -= 1
@@ -44,4 +44,5 @@ for (let i = 1; i <= seqTotal; i++) {
   }
 }
 
+// Display result
 console.log(matrix)
