@@ -3,7 +3,7 @@ exports.spiralMatrix = function (dimention = 5, initialValue = 0) {
   let dx = -1
   let value = initialValue - 1
   const seqTotal = (2 * dimention - 2) / 2
-  let seqDigitsTotal = dimention
+  let numbersInSeq = dimention
   let seqNumber = 0
   let seqSign = -1
 
@@ -20,10 +20,10 @@ exports.spiralMatrix = function (dimention = 5, initialValue = 0) {
   // Find the row and column numbers and set the values.
   for (let i = 1; i <= seqTotal; i++) {
     seqSign = -seqSign
-    seqDigitsTotal--
+    numbersInSeq--
     for (let i = 1; i <= 2; i++) {
       seqNumber++
-      for (let i = 0; i < seqDigitsTotal; i++) {
+      for (let i = 0; i < numbersInSeq; i++) {
         if (seqNumber % 2 != 0) {
           dy = dy + 1 * seqSign
         } else {
