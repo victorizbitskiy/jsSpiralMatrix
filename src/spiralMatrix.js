@@ -5,7 +5,7 @@ exports.spiralMatrix = function (dimention = 5, initialValue = 0) {
   const seqTotal = (2 * dimention - 2) / 2
   let seqDimention = dimention
   let seqNumber = 0
-  let seqSign = -1
+  let signCoef = -1
 
   // Create the matrix nxn
   let n = dimention
@@ -19,15 +19,15 @@ exports.spiralMatrix = function (dimention = 5, initialValue = 0) {
 
   // Find the row and column numbers and set the values.
   for (let i = 1; i <= seqTotal; i++) {
-    seqSign = -seqSign
+    signCoef = - signCoef
     seqDimention--
     for (let i = 1; i <= 2; i++) {
       seqNumber++
       for (let i = 0; i < seqDimention; i++) {
         if (seqNumber % 2 != 0) {
-          dy = dy + 1 * seqSign
+          dy = dy + 1 * signCoef
         } else {
-          dx = dx - 1 * seqSign
+          dx = dx - 1 * signCoef
         }
         value++
         matrix[dy][dx] = value
