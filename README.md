@@ -11,6 +11,7 @@ The elements of this matrix have the following coordinates:
 
 ![spiralMatrixCoordinates](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix_5x5_coordinates.svg)
 
+In essence, the task is to find the coordinates for each number. So, lets do it.  
 If we represent the coordinates of rows (dy) and columns (dx) as a sequences of numbers, then we can notice a certain pattern.
 
 ![spiralMatrix](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix-5x5_table.svg)
