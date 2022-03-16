@@ -13,7 +13,7 @@ The elements of this matrix have the following coordinates:
 
 If we represent the coordinates of rows (dy) and columns (dx) as a sequences of numbers, then we can notice a certain pattern.
 
-![spiralMatrix](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix-5x5_table_.svg)
+![spiralMatrix](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix-5x5_table.svg)
 
 1. Total number of sequences = 2*dimention - 1.
 2. The sequence dimention is repeated twice and then reduced by 1 (except for the first sequence).
