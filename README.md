@@ -5,7 +5,7 @@ This is another implementation of the [spiral matrix](http://rosettacode.org/wik
 ### Algorithm
 Let's say we want to get a 5x5 (dimention = 5) spiral matrix like this:
 
-![spiralMatrix](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix_5x5.svg)
+![spiralMatrix](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix-5x5.svg)
 
 The elements of this matrix have the following coordinates:
 
