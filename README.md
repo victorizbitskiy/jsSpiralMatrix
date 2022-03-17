@@ -3,7 +3,7 @@
 This is another implementation of the [spiral matrix](http://rosettacode.org/wiki/Spiral_matrix) based on a pattern I discovered while playing with it.
 
 ### Algorithm
-Let's say we want to get a 5x5 (dimention) spiral matrix like this:
+Let's say we want to get a 5x5 (dimention = 5) spiral matrix like this:
 
 ![spiralMatrix](https://github.com/victorizbitskiy/spiralMatrix/blob/main/docs/img/spiralMatrix_5x5.svg)
 
