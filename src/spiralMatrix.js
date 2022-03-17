@@ -1,7 +1,7 @@
 exports.spiralMatrix = function (dimention = 5, initialValue = 0) {
   let dy = 0
   let dx = 0
-  let value = initialValue - 1
+  let value = initialValue
   const halfSeqTotal = (2 * dimention - 2) / 2
   let seqDimention = dimention
   let seqNumber = 0
@@ -14,7 +14,7 @@ exports.spiralMatrix = function (dimention = 5, initialValue = 0) {
 
   // Fill in the first row (index 0)
   for (let i = 0; i < dimention; i++) {
-    matrix[dy][dx++] = ++value
+    matrix[dy][dx++] = value++
   }
 
   // Find the row and column numbers and set the values.
@@ -30,8 +30,7 @@ exports.spiralMatrix = function (dimention = 5, initialValue = 0) {
         } else {
           dx = dx - 1 * signCoef
         }
-        value++
-        matrix[dy][dx] = value
+        matrix[dy][dx] = value++
       }
     }
   }
